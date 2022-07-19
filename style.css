@@ -62,3 +62,46 @@ body{
     width: 51px;
 
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+.top-players{
+
+}
+.section-title{
+    font-size: 24px;
+    color:#562EFF;
+    margin-bottom: 20px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    margin-right: 10px;
+}
+.player h4{
+    font-size: 18px;
+
+}
+hr{
+    margin: 20px 0;
+    border-top: 2px solid #D1D1D1;
+}
